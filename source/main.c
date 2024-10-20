@@ -72,13 +72,13 @@ int main(int argc, char **argv)
         }
         if (button & KEY_START)
         {
-            CFG_UpdateConfigNANDSavegame();
+            CFG_UpdateConfigSavegame();
             break;
         }
         if (button & KEY_SELECT)
         {
             setEulaVersion(origVal);
-            CFG_UpdateConfigNANDSavegame();
+            CFG_UpdateConfigSavegame();
             break;
         }
     }
